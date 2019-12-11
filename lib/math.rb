@@ -26,7 +26,7 @@ puts num1.remainder(num2)
 end
 
 def square_root(num)
-puts integer.sqrt(num)
+puts Math.sqrt(num)
 end
 
 addition (5, 4)
