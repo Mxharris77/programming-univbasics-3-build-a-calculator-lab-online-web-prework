@@ -1,33 +1,33 @@
 
 def addition(num1,num2)
 sum = num1 + num2
- puts sum
+ return sum
 end
 
 def subtraction(num1,num2)
 difference = num1 - num2
- puts difference
+ return difference
 end
 
 
 def division(num1,num2)
  quotient = num1 / num2
- puts quotient
+ return quotient
 end
 
 def multiplication(num1,num2)
  product = num1 * num2
- puts product
+ return product
 end
 
 def modulo(num1,num2)
  remainder = num1.remainder(num2)
- puts remainder
+ return remainder
 end
 
 def square_root(num)
  root = Math.sqrt(num)
- puts root
+ return root
 end
 
 addition (5,4)
